@@ -1,0 +1,12 @@
+Ejercicio:
+Crea una aplicación simple que permita al usuario ingresar su nombre en un campo de entrada y
+luego muestre un mensaje de bienvenida con el nombre ingresado.
+1. Definir el estado: Utiliza el hook useState para definir un estado llamado name que
+almacene el nombre ingresado por el usuario.
+2. Crear un campo de entrada: Utiliza el componente TextInput para permitir al usuario
+ingresar su nombre. Vincula este campo de entrada al estado name utilizando el prop
+value y el prop onChangeText.
+3. Mostrar el mensaje de bienvenida: Utiliza el hook useEffect para mostrar un mensaje de
+bienvenida con el nombre ingresado cada vez que el estado name cambie.
+4. Permite al usuario presionar un botón para limpiar el campo de entrada y restablecer el
+mensaje de bienvenida
